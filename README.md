@@ -12,7 +12,8 @@ This repository contains the source code for two models, **TM-TVF<sub>LDDMM</sub
 - Preprocessed datasets were made available @ [**TransMorph**](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration)
 
 ## Modeling time-dependent velocity fields using TransMorph:
-<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/net_arch.jpg" width="700"/>
+<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/net_arch.jpg" width="700"/>\
+*Skip-connections were omitted for visualization.*
 
 ## Smoother transformation without imposing a diffeomorphism:
 <img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/field_visualization.jpg" width="900"/>
