@@ -15,7 +15,7 @@ This repository contains the source code for two models, **TM-TVF<sub>LDDMM</sub
 <img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/net_arch.jpg" width="700"/>
 
 ## Smoother transformation without imposing a diffeomorphism:
-<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/field_visual.jpg" width="900"/>
+<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/field_visualization.jpg" width="900"/>
 
 ## Diffeomorphic registration
 ***Forward:***
