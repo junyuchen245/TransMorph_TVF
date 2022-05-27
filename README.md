@@ -20,9 +20,10 @@ This repository contains the source code for two models, **TM-TVF<sub>LDDMM</sub
 
 ## Diffeomorphic registration
 ***Forward:***
-<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/forward.gif" width="100"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/forward_face_3.gif" width="250"/>&nbsp;&nbsp;<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/forward_grid_3.gif" width="250"/>
+
 ***Inverse:***
-<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/inverse.gif" width="100"/>
+<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/backward_face_3.gif" width="250"/>&nbsp;&nbsp;<img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/backward_grid_3.gif" width="250"/>
 
 ***Inversion and composition:***\
 <img src="https://github.com/junyuchen245/TransMorph_TVF/blob/main/example_imgs/forward_inverse.jpg" width="600"/>
