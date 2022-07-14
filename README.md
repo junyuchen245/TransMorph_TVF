@@ -34,10 +34,10 @@ We also provided the Tensorboard training log for each model. To visualize loss 
 #### Validation set results
 |Ranking|Model|Dice|SDlogJ|HdDist95|Pretrained Weights|Tensorboard Log|
 |---|---|---|---|---|---|---|
-|[1](https://learn2reg.grand-challenge.org/evaluation/task-3-validation/leaderboard/)|TM-TVF|0.8706 ± 0.0154|0.0998|1.3903|N/A| N/A|
+|[1](https://learn2reg.grand-challenge.org/evaluation/task-3-validation/leaderboard/)|TM-TVF|0.8706 ± 0.0154|0.0998|1.3903|[Model Weights (1.72GB)](https://drive.google.com/uc?export=download&id=1PrWOl2hMWQ0JaFhR7i-lRyGmXHs18ewX)| [Tensorboard Training Log (1.52GB)](https://drive.google.com/uc?export=download&id=16ahT91yp9NjmD3rEA6cUpexgNmanacWJ)|
 |[2](https://learn2reg.grand-challenge.org/evaluation/task-3-validation/leaderboard/)|[TM-Large](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/OASIS/TransMorph_on_OASIS.md)|0.8623 ± 0.0144|0.1276|1.4315|-|-|
 |3|[TransMorph (TM)](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration/blob/main/OASIS/TransMorph_on_OASIS.md)|0.8575 ± 0.0145|0.1253|1.4594| - | - |
-
+|4|[TransMorph-TVF_LDDMM]|0.833 ± 0.016|0.090|1.630| [Model Weights (1.71GB)](https://drive.google.com/uc?export=download&id=1AG0Xd0hN_52MBGfwNm-NyT4n9pkTvrWR) | [Tensorboard Training Log (1.58GB)](https://drive.google.com/uc?export=download&id=1tIOsC4RpD3STzTX2c4ixh0igT_MlXZtj) |
 #### Test set results (*results obtained from Learn2Reg challenge organizers*)
 |Ranking|Model|Dice|SDlogJ|HdDist95|
 |---|---|---|---|---|
