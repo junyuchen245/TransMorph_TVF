@@ -4,8 +4,6 @@ We propose a learning-based framework for unsupervised and end-to-end learning o
 
 This repository contains the source code for two models, **TM-TVF<sub>LDDMM</sub>** and **TM-TVF**, from our paper: "Unsupervised Learning of Diffeomorphic Image Registration via TransMorph"
 
-***Source code will be made available after publication!***
-
 - Paper link: [Chen, Junyu, Eric C. Frey, and Yong Du. "Unsupervised Learning of Diffeomorphic Image Registration via TransMorph." International Workshop on Biomedical Image Registration. Springer, Cham, 2022.](https://link.springer.com/chapter/10.1007/978-3-031-11203-4_11)
 - This method is currently ranked **No. 1** @ [2021 MICCAI Learn2Reg challenge Task 03](https://learn2reg.grand-challenge.org/) (OASIS brain MR dataset)
 - Please also check out our base network, [**TransMorph**](https://github.com/junyuchen245/TransMorph_Transformer_for_Medical_Image_Registration), a top-ranked Transformer-based network for image registration.
