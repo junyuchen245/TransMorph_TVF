@@ -958,8 +958,8 @@ class TransMorphTVFBackward(nn.Module):
         x = self.up1(x, f2)
         xx = self.up2(x, f3)
         def_x = x_s1[:, 0:1,...]
-        flow_previous = 0
-        flow_inv_previous = 0
+        flow_previous = torch.zeros((source_d.shape[0], 3, source_d.img_size[0], source_d.img_size[1], source_d.img_size[2])).to(mov.device)
+        flow_inv_previous = torch.zeros((source_d.shape[0], 3, source_d.img_size[0], source_d.img_size[1], source_d.img_size[2])).to(mov.device)
         flows = []
         flows_out = []
         for t in range(self.time_steps):
