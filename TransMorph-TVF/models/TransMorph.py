@@ -878,7 +878,7 @@ class TransMorphTVFForward(nn.Module):
         x = self.up1(x, f2)
         xx = self.up2(x, f3)
         def_x = x_s1[:, 0:1,...]
-        flow_previous = 0
+        flow_previous = torch.zeros((source_d.shape[0], 3, source_d.shape[2], source_d.shape[3], source_d.shape[4])).to(source_d.device)
         flows = []
         # flow integration
         for t in range(self.time_steps):
@@ -958,8 +958,8 @@ class TransMorphTVFBackward(nn.Module):
         x = self.up1(x, f2)
         xx = self.up2(x, f3)
         def_x = x_s1[:, 0:1,...]
-        flow_previous = torch.zeros((source_d.shape[0], 3, source_d.img_size[0], source_d.img_size[1], source_d.img_size[2])).to(mov.device)
-        flow_inv_previous = torch.zeros((source_d.shape[0], 3, source_d.img_size[0], source_d.img_size[1], source_d.img_size[2])).to(mov.device)
+        flow_previous = torch.zeros((source_d.shape[0], 3, source_d.shape[2], source_d.shape[3], source_d.shape[4])).to(source_d.device)
+        flow_inv_previous = torch.zeros((source_d.shape[0], 3, source_d.shape[2], source_d.shape[3], source_d.shape[4])).to(source_d.device)
         flows = []
         flows_out = []
         for t in range(self.time_steps):
