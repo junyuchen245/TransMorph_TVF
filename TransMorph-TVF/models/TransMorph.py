@@ -886,7 +886,7 @@ class TransMorphTVFForward(nn.Module):
             x = self.up3s[t](xx, f_out)
             flow = self.reg_heads[t](x)
             flows.append(flow)
-            flow_new = flow_previous + self.spatial_trans_down(flow, flow)
+            flow_new = flow_previous + self.spatial_trans_down(flow, flow_previous)
             def_x = self.spatial_trans_down(source_d, flow_new)
             flow_previous = flow_new
         flow = self.tri_up(flow_new)
@@ -967,9 +967,9 @@ class TransMorphTVFBackward(nn.Module):
             x = self.up3s[t](xx, f_out)
             flow = self.reg_heads[t](x)
             flows.append(flow)
-            flow_new = flow_previous + self.spatial_trans_down(flow, flow)
+            flow_new = flow_previous + self.spatial_trans_down(flow, flow_previous)
             flows_out.append(flow_new)
-            flow_inv = flow_inv_previous + self.spatial_trans_down(-flow, -flow)
+            flow_inv = flow_inv_previous + self.spatial_trans_down(-flow, -flow_inv_previous)
             def_x = self.spatial_trans_down(source_d, flow_new)
             flow_previous = flow_new
             flow_inv_previous = flow_inv
